@@ -67,7 +67,7 @@ class QichachaapiSpider(scrapy.Spider):
     def start_requests(self):
         while True:
             try:
-                appid = '1787200360185404'
+                appid = '********'
                 now = datetime.datetime.now()
                 timestamp = now.strftime("%Y-%m-%d %H:%M:%S")
                 url = 'appid' + appid + 'timestamp' + timestamp.replace(' ', '') + 'keysecretG5FVJW76YFD72G16CI2VRMQP8ORWG20R'
