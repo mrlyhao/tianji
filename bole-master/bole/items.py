@@ -110,9 +110,9 @@ class QichachachaItem(scrapy.Item):
     partner_info= scrapy.Field()#股东信息
     conpany_id= scrapy.Field()#公司id
     main_member=scrapy.Field()#重要成员
-    touzilist=scrapy.Field()#重要成员
-    fenzhilist=scrapy.Field()#重要成员
-    changelist=scrapy.Field()#重要成员
+    touzilist=scrapy.Field()#投资列表
+    fenzhilist=scrapy.Field()#分支机构
+    changelist=scrapy.Field()#变更信息
 
 
 def add_jobbole(value):
